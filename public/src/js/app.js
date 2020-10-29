@@ -2,6 +2,10 @@
 const elements = document.getElementsByClassName("box");
 const len = elements.length;
 
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register("/sw.js");
+}
+
 const rotateOneCard = (e) => {
    
   for (let i = 0; i < len; i++) {

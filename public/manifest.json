@@ -1,0 +1,31 @@
+{
+    "name":"DSC Projects",
+    "short_name": "Projects",
+    "start_url":"/index.html",
+    "scope":".",
+    "display":"standalone",
+    "background_color":"#000",
+    "theme_color":"#000",
+    "description":"Let's Build Something cool with DSC.",
+    "dir":"ltr",
+    "lang":"en-US",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"./src/assets/images/logo144x144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"./src/assets/images/logo192x192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"./src/assets/images/logo512x512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+
+}
